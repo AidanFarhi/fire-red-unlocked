@@ -8,7 +8,7 @@ https://github.com/pret/pokefirered
 
 Features:
 
-- All pokemon available for trade or capture.
+- All pokemon obtainable by either in-game NPC trades or capture.
 
 - All pokemon able to evolve via leveling or items.
 
