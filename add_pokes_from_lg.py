@@ -25,7 +25,7 @@ def poke_exists_in_list(pokes: list, poke_to_check: dict) -> bool:
     return False
 
 
-def add_lg_mons_to_fr_encounter(fr_encounters: list, lg_encounters: list) -> list:
+def add_lg_mons_to_fr_encounter(fr_encounters: list, lg_encounters: list):
     for fr_enc in fr_encounters:
         fr_enc_base_label = fr_enc["base_label"].removesuffix(VERSION_FIRE_RED)
         for lg_enc in lg_encounters:
@@ -48,11 +48,10 @@ def main():
     fr_encounters = list(filter(is_version_fire_red, encounters))
     lg_encounters = list(filter(is_version_leaf_green, encounters))
     add_lg_mons_to_fr_encounter(fr_encounters, lg_encounters)
-
-    output_file = open("./src/data/wild_encounters_v2.json", "w")
-    json.dump(original_wild_encounters, output_file, indent=2)
-
     input_file.close()
+
+    output_file = open("./src/data/wild_encounters.json", "w")
+    json.dump(original_wild_encounters, output_file, indent=2)
     output_file.close()
 
 
