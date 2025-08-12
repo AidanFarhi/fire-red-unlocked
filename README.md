@@ -1,14 +1,17 @@
-# Pokémon FireRed and LeafGreen
+# Pokémon FireRed Unlocked
 
-This is a decompilation of English Pokémon FireRed and LeafGreen.
+The goal of this hack is to create a mininimally updated version of FireRed.
 
-It builds the following ROM images:
+This is literally copy-pasted from pret's source code:
 
-* [**pokefirered.gba**](https://datomatic.no-intro.org/?page=show_record&s=23&n=1616) `sha1: 41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc`
-* [**pokeleafgreen.gba**](https://datomatic.no-intro.org/?page=show_record&s=23&n=1617) `sha1: 574fa542ffebb14be69902d1d36f1ec0a4afd71e`
-* [**pokefirered_rev1.gba**](https://datomatic.no-intro.org/?page=show_record&s=23&n=1672) `sha1: dd5945db9b930750cb39d00c84da8571feebf417`
-* [**pokeleafgreen_rev1.gba**](https://datomatic.no-intro.org/index.php?page=show_record&s=23&n=1668) `sha1: 7862c67bdecbe21d1d69ce082ce34327e1c6ed5e`
+https://github.com/pret/pokefirered
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+Version 0.0 Features:
 
-For contacts and other pret projects, see [pret.github.io](https://pret.github.io/).
+- LeafGreen exclusives added.
+
+- All evolution stones purchasable in Celadon Department store 4F.
+
+- All three starters catchable on Route 1.
+
+- All original 150 pokemon able to evolve via leveling up or items.
