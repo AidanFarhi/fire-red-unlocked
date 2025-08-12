@@ -8,9 +8,10 @@ https://github.com/pret/pokefirered
 
 Version 0.0 Features:
 
-- All original 151 pokemon obtainable by either in-game NPC trades or capture.
-  This does not include Mew, I have to figure out how to create a mini map event or something.
+- LeafGreen exclusives added.
 
-- All pokemon able to evolve via leveling or items.
+- All evolution stones purchasable in Celadon Department store 4F.
 
-- Minor enhancements that further enable the above two features (able to buy unlimited evolution items, ect...)
+- All three starters catchable on Route 1.
+
+- All original 150 pokemon able to evolve via leveling up or items.
